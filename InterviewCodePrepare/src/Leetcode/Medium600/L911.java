@@ -45,7 +45,7 @@ public class L911 {
 
     public int q(int t) {
         int l = 0, r = list.size() - 1;
-        //find the right most (larget index) at time t
+        //find the right most (largest index) at time t
         while(l < r) {
             //or 用 bit-operation int mid = l + r + 1 >> 1;
             int mid = l + (r - l) / 2;
