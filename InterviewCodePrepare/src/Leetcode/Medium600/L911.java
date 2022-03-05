@@ -26,6 +26,8 @@ public class L911 {
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
+
+
     //list存储每一次票选交替情况, global variable 后面function q() 要用
     List<int[]> list = new ArrayList<>();
     public L911(int[] persons, int[] times) {
