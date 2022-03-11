@@ -8,7 +8,7 @@ import java.util.Queue;
  *
  * https://leetcode.com/discuss/interview-question/1257344/amazon-oa-demolition-of-robot
  */
-public class 客户OA {
+public class AmazonOA {
 
     public static int bfs(int[][] grid) {
         //bfs, 路径存在path 频繁操作：1. 加到结尾  2. 删除头部  所以使用 linkedlist
